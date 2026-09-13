@@ -2,13 +2,13 @@
 
 importer="font_data_dynamic"
 type="FontFile"
-uid="uid://dmu17ke6l6mbn"
-path="res://.godot/imported/Rubik-Medium.ttf-05a148faa537d1f4c726aa36c942bcd2.fontdata"
+uid="uid://c61cvuk5hfp62"
+path="res://.godot/imported/Rubik-Light.ttf-10186339bdea6ce31d913d6a8520e4ce.fontdata"
 
 [deps]
 
-source_file="res://Fonts/Rubik-Medium.ttf"
-dest_files=["res://.godot/imported/Rubik-Medium.ttf-05a148faa537d1f4c726aa36c942bcd2.fontdata"]
+source_file="res://Assets/Fonts/Rubik-Light.ttf"
+dest_files=["res://.godot/imported/Rubik-Light.ttf-10186339bdea6ce31d913d6a8520e4ce.fontdata"]
 
 [params]
 
