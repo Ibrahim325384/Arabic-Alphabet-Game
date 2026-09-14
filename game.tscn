@@ -1,3 +1,30 @@
 [gd_scene format=3 uid="uid://c6llkwskif3rr"]
 
+[ext_resource type="Script" uid="uid://c4kjkxbr8j3fj" path="res://game.gd" id="1_80nbo"]
+
 [node name="Game" type="Node2D" unique_id=1384138847]
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=974238124]
+offset_right = 1148.0
+offset_bottom = 643.0
+color = Color(0.2922061, 0.78603417, 0.61876947, 1)
+
+[node name="MarginContainer" type="MarginContainer" parent="ColorRect" unique_id=9431889]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.164
+anchor_bottom = 0.30600002
+offset_left = 1060.0
+offset_top = 16.0
+offset_right = 937.728
+offset_bottom = -147.75801
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ColorRect/MarginContainer" unique_id=1332757329]
+layout_mode = 2
+
+[node name="Exit" type="Button" parent="ColorRect/MarginContainer/VBoxContainer" unique_id=352803679]
+layout_mode = 2
+text = "Exit"
+script = ExtResource("1_80nbo")
+
+[connection signal="pressed" from="ColorRect/MarginContainer/VBoxContainer/Exit" to="ColorRect/MarginContainer/VBoxContainer/Exit" method="_exit_on_pressed"]
